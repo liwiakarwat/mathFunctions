@@ -86,7 +86,7 @@ vector<pair<double, double> > compressSets(vector<pair<double, double> > sets)
 			{
 				if (resoult[j].second >= sets[i].first)
 				{
-					if (resoult[j].second<sets[i].second)
+					if (resoult[j].second<=sets[i].second)
 					{
 						resoult[j].second = sets[i].second;
 					}
